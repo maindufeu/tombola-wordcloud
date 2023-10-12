@@ -1,8 +1,8 @@
 <template>
   <div>
     <div>
-    <img src="https://github.com/AI-ML-Lab/resources/blob/main/images/m_dimensiones.gif?raw=true" class="logo" alt="Dimensiones" />
-    <h1>Minsait</h1>
+    <!-- <img src="https://github.com/AI-ML-Lab/resources/blob/main/images/m_dimensiones.gif?raw=true" class="logo" alt="Dimensiones" /> -->
+    <h1>Tómbola</h1>
   </div>
     <WordCloud :text="sampleText" />
   </div>
