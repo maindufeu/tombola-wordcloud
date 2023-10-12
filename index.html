@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 400px; /* Inicia el fondo después de 200 píxeles */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Coloca el fondo detrás de todos los otros elementos */
+    background: radial-gradient(circle at 50% 50%, #79c5b4, #7874b4);
+    filter: blur(100px);
+  }
+  </style>
